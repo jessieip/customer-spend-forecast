@@ -28,7 +28,7 @@ I trained three models—**Linear Regression, XGBoost, and Decision Tree Regress
 ### 🔍 Key Findings
 * **Data Distribution:** 48% of customers had zero spend, resulting in a **heavily right-skewed distribution**. This explains the low $R^2$, as models struggled to differentiate between "no-spend" and "low-spend" users.
 * **Feature Importance:** Behavioral data (historical sessions and past spend) proved far more predictive than demographic data (age, gender, country).
-* **Multicollinearity:** High VIF scores in the Linear model for specific countries and traffic sources (e.g., Search) indicated redundant features.
+* **Multicollinearity:** High VIF scores in the Linear model for specific countries and traffic sources (e.g. Search) indicated redundant features.
 
 
 
