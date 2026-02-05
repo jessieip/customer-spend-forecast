@@ -23,7 +23,7 @@ I trained three models—**Linear Regression, XGBoost, and Decision Tree Regress
 | :--- | :--- | :--- | :--- |
 | **Linear Regression** | 86.37 | 0.07 | Struggled with non-linear patterns; high multicollinearity (VIF > 5). |
 | **Decision Tree** | 84.75 | 0.11 | Improved via Target Encoding for 'Country'. |
-| **XGBoost** | **82.50** | **0.153** | **Best Performer**; captured complex non-linear relationships. |
+| **XGBoost** | **82.50** | **0.153** | **Best Performer**: captured complex non-linear relationships. |
 
 ### 🔍 Key Findings
 * **Data Distribution:** 48% of customers had zero spend, resulting in a **heavily right-skewed distribution**. This explains the low $R^2$, as models struggled to differentiate between "no-spend" and "low-spend" users.
